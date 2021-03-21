@@ -7,8 +7,9 @@
   font-size: 100%;
 }
 body {
-  background: url('pictures/6900.jpg') no-repeat center center fixed;
+  background: url('pictures/4.jpg') no-repeat center center fixed;
   background-size: cover;
+	filter: grayscale(20%);
 }
 body { 
   height: 100vh;
@@ -17,9 +18,8 @@ body {
   align-items: center;
   }
  .profile-card {
-  
   width: 480px;
-	background: hsla(0, 0%, 100%, .5); 
+	background: hsla(0, 0%, 100%, .3); 
   max-width: calc(100vw - 50px);
   border-radius: 4px;
   box-shadow: hsla(0,0%,0%,.8)10px 10px 80px;
@@ -33,11 +33,12 @@ body {
   text-align: center;
  }
  img{
-  width: 150px;
+  width: 100px;
   height: 100px;
-  border-radius: 10%;
-  padding:1px;
+  border-radius: 50%;
+  padding:0;
   filter: grayscale(20%);
+	border:3px solid hsla(336, 28%,70%, .8);
 	}
 img:hover {
   transform: scale(1.1);
@@ -65,7 +66,39 @@ li {
 .head, .about {
   margin-bottom: 10%;
   }
+.about {
+	color: hsl(243,10%,35%);
+}
 .content {
   padding: 5% 10%;
   border-top:1px solid hsla(0, 0%,30%, .8);
   }
+.types {
+	width: 100%; 
+  text-align: center;
+  margin: 0 auto;
+  height: 100px;
+  position: relative;
+}
+.type{
+	position:absolute;
+	box-sizing: border-box;
+	border-radius: 4px;
+	border:3px solid hsla(336, 28%,70%, .8);
+	}
+#kismama {
+	left: 0;
+	margin-left: 5px;
+  height: 100%;
+	width:auto;
+	}
+#ujszulott {
+  left:135px;
+  height: 100%;
+	width:auto;
+}
+#csalad{
+ 	left:260px;
+  height: 100%;
+	width:auto;
+}
