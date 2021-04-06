@@ -40,6 +40,8 @@ body {
   }
 .profile-card {
   width: 75vw;
+	max-height: 80vh;
+  max-width: calc(100vw - 10px);
 	background: hsla(0, 0%, 100%, .3); 
   border-radius: 4px;
   box-shadow: hsla(0,0%,0%,.8)10px 10px 80px;
