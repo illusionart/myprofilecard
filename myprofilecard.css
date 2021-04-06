@@ -39,8 +39,8 @@ body {
   align-items: center;
   }
 .profile-card {
-  width: 75vw;
-	max-height: 80vh;
+  width: 85vw;
+	max-height: 90vh;
   max-width: calc(100vw - 10px);
 	background: hsla(0, 0%, 100%, .3); 
   border-radius: 4px;
