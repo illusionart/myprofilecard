@@ -49,7 +49,7 @@ body {
   box-shadow: hsla(0,0%,0%,.8)10px 10px 80px;
 	font-size: 1em;
   }
- /*.head, .content {
+ .head, .content {
 	width: 90%; 
   text-align: center;
   margin: 0 auto;
@@ -58,6 +58,54 @@ body {
   text-align: center;
  }
  .profile-image {
+	width: 100px;
+  height: 100px;
+  padding:0;
+
+	border-radius: 50%;
+	filter: grayscale(20%);
+	border:3px solid hsla(336, 28%,70%, .8);
+  }
+.name-headline, .about{
+	text-align: center;
+}
+h1 {text-transform:uppercase;
+  font-size: 1,5rem;
+  font-weight: bold;
+  }
+h2 {font-size: 1,25rem;
+}
+.head, .about {
+  margin-bottom: 10%;
+  }
+.about {
+	color: hsl(243,10%,35%);
+	}
+
+/*contact links*/
+ul {
+  list-style-type: none;
+  }
+li {
+  display: inline;
+  }
+.content {
+  padding: 5% 5%;
+  border-top:1px solid hsla(0, 0%,30%, .8);
+  }
+.flex-container {
+	width:100%;
+	display: flex;
+	text-align: center;
+  margin: 0 auto;
+	justify-content: center;
+ }
+	.picture{
+  padding:5px;
+	width: 60%;
+	height: 90%;
+		}	
+/*.profile-image {
   width: 20vw;
   height: 20vw;
   padding:0;
