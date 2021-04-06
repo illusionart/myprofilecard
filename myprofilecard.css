@@ -129,9 +129,10 @@ li {
 } */
 /*@media (min-width: 768px){
 	
-	}*/
+	}
 
-@media (min-width:1025px) {
+@media (min-width:1025px) {*/
+
 	.profile-card {
   width: 30vw;
 	background: hsla(0, 0%, 100%, .3); 
